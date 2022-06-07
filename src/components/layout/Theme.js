@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import DarkTheme from "./DarkTheme";
 import LightTheme from "./LightTheme";
-import classes from "./Theme.module.css";
 
 const Theme = function (props) {
   const themeHandler = function () {

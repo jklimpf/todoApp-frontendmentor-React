@@ -19,6 +19,7 @@ const Background = function (props) {
       <img
         className={classes.backgroundImg}
         src={`${lightTheme ? lightPicture : darkPicture}`}
+        alt="img"
       ></img>
       <Todo onThemeClick={themeHandler} lightTheme={lightTheme}></Todo>
     </div>

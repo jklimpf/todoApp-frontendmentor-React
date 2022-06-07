@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import Card from "../UI/Card";
 import Task from "./Task";
 import classes from "./TodoList.module.css";
