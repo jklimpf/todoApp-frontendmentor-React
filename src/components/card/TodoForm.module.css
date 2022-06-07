@@ -1,0 +1,28 @@
+.formDiv {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: -9%;
+  color: white;
+  padding: 0.5rem;
+  height: 10vh;
+  background-color: #383838;
+}
+
+.lightDiv {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: -9%;
+  color: black;
+  padding: 0.5rem;
+  height: 10vh;
+  background-color: white;
+  border: solid 1px black;
+}

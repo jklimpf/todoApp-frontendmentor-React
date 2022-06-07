@@ -1,0 +1,44 @@
+.actions {
+  height: 10vh;
+  margin: auto;
+  color: white;
+  margin: auto;
+  border-top: 1px solid darkgray;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  color: rgb(112, 112, 112);
+  background-color: #383838;
+}
+
+button {
+  font-size: 0.9rem;
+  color: rgb(112, 112, 112);
+}
+
+.actionButtons {
+  display: flex;
+  max-width: 11%;
+  gap: 0.5rem;
+}
+
+.clicked {
+  color: blue;
+}
+
+.lightActions {
+  height: 10vh;
+  margin: auto;
+  color: black;
+  margin: auto;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: white;
+  border: solid 1px black;
+  border-top: 1px solid darkgray;
+}

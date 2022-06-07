@@ -1,0 +1,26 @@
+.todoList {
+  max-width: 38%;
+  width: 90%;
+  height: 45vh;
+  margin: auto;
+  position: relative;
+  background-color: #383838;
+  color: white;
+  overflow: auto;
+  margin: auto;
+  margin-top: 1.5%;
+}
+
+.lightList {
+  max-width: 38%;
+  width: 90%;
+  height: 45vh;
+  margin: auto;
+  position: relative;
+  background-color: white;
+  color: black;
+  overflow: auto;
+  margin: auto;
+  margin-top: 1.5%;
+  border: solid 1px black;
+}

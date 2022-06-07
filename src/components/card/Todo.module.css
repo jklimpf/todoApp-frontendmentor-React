@@ -1,0 +1,14 @@
+.reorderNote {
+  max-width: 38%;
+  width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  color: darkgray;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}

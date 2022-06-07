@@ -1,0 +1,14 @@
+.backgroundImg {
+  height: 37vh;
+  width: 100%;
+}
+
+.bodyDivDark {
+  background-color: hsl(235, 21%, 11%);
+  height: 100vh;
+}
+
+.bodyDivLight {
+  background-color: white;
+  height: 100vh;
+}

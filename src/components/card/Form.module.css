@@ -1,0 +1,18 @@
+.form {
+  width: 200%;
+  line-height: 2.5rem;
+  background-color: transparent;
+  border: none;
+  color: darkgray;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.form:focus {
+  outline: none;
+}
+
+.form::placeholder {
+  color: darkgray;
+  font-size: 1rem;
+}
