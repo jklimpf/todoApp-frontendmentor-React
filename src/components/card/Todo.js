@@ -6,12 +6,22 @@ import Header from "../layout/Header";
 import classes from "./Todo.module.css";
 
 const Todo = function (props) {
+  useEffect(() => {
+    const tasksArr = JSON.parse(localStorage.getItem("tasks"));
+
+    setTasksArr(tasksArr);
+  }, []);
+
   const [tasksArr, setTasksArr] = useState([]);
   const [completedTasks, setCompletedTasks] = useState([]);
   const [completedIsClicked, setCompletedIsClicked] = useState(false);
   const [activeTasks, setActiveTasks] = useState([]);
   const [activeIsClicked, setActiveIsClicked] = useState(false);
   const [allIsClicked, setAllIsClicked] = useState(true);
+
+  useEffect(() => {
+    localStorage.setItem("tasks", JSON.stringify(tasksArr));
+  }, [tasksArr]);
 
   const checkTodoHandler = function (id) {
     const existingTodo = tasksArr.find((todo) => todo.id === Number(id));
